@@ -13,7 +13,7 @@ def main():
     # Start node
     rclpy.init()
     node = rclpy.create_node('spawn_cougerbot')
-    urdf_file_path = "/home/virat/ros2_AIE21047/src/cougerbot/urdf/cougerbot.urdf" 
+    urdf_file_path = "/home/varshini/ros2_course_ws/src/cougerbot/urdf/cougerbot.urdf" 
 
     node.get_logger().info(
         'Creating Service client to connect to `/spawn_entity`')
