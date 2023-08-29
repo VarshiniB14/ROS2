@@ -328,7 +328,7 @@
 	<gazebo>
 		<plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
 			<robot_sim_type>gazebo_ros2_control/GazeboSystem</robot_sim_type>
-			<parameters>/home/virat/ros2_AIE21047/src/cougerbot/config/controllers.yaml</parameters>
+			<parameters>/home/varshini/ros2_course_ws/src/cougerbot/config/controllers.yaml</parameters>
 		</plugin>
 	</gazebo>
 	
